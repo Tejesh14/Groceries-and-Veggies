@@ -16,7 +16,6 @@
                           <div class="col-md-8 mt-4">
                             <div class="card-body">
                               <h5 class="card-title"><%= ch.name %> </h5>
-                              <p class="card-text"><%= ch.desc %> </p>
                               <p class="card-text"><strong>&#8377;<%= ch.price %></strong></p>
                               <form action="/user/<%= userName._id %>/cart/<%= ch._id %>?_method=DELETE" method="POST">
                                 <button class="btn btn-sm">Remove</button>
